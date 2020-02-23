@@ -22,6 +22,7 @@ function reverse(str) {
     // }
     // return reversed
 
+    // 4)
     return str.split('').reduce((reversed, char) => char + reversed, '')
 }
 
